@@ -6,7 +6,8 @@ tele-sync is a remote communication system using 3D Gaussian Splatting (3DGS) an
 ## Related Repositories
 This system consists of the following programs:
 
+- [tele-sync-capture](https://github.com/t-ota0407/tele-sync-capture) - MR application to capture images of physical environment
 - [tele-sync-onsite](https://github.com/t-ota0407/tele-sync-onsite) - MR application used by on-site users
 - [tele-sync-remote](https://github.com/t-ota0407/tele-sync-remote) - MR application used by remote users
-- [tele-sync-server](https://github.com/t-ota0407/tele-sync-server) - Server program
+- [tele-sync-server](https://github.com/t-ota0407/tele-sync-v2) - Server program
 - [tele-sync-3dgs](https://github.com/t-ota0407/tele-sync-3dgs) - Program for 3D reconstruction using 3DGS for remote users
