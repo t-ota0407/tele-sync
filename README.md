@@ -1,10 +1,12 @@
 # tele-sync
 
-## 概要
-tele-syncは3D Gaussian Splatting (3DGS)と非対称MRを用いた遠隔コミュニケーションシステムです。現地のユーザーが実環境をキャプチャして、そのデータから3DGSによって、3Dシーンの構成を行います。そして、実環境を反映させたバーチャル環境でのコミュニケーションを可能にします。
+## Overview
+tele-sync is a remote communication system using 3D Gaussian Splatting (3DGS) and asymmetric MR. On-site users capture a physical environment, and the system constructs a 3D scene using 3DGS. This system enables communication in a virtual environment that reflects the real-world environment.
 
-## 関連リポジトリ
-- [tele-sync-onsite](https://github.com/t-ota0407/tele-sync-onsite) - 現地のユーザが使用するMRアプリケーション
-- [tele-sync-remote](https://github.com/t-ota0407/tele-sync-remote) - 遠隔地のユーザが使用するMRアプリケーション
-- [tele-sync-server](https://github.com/t-ota0407/tele-sync-server) - サーバーのプログラム
-- [tele-sync-3dgs](https://github.com/t-ota0407/tele-sync-3dgs) - 遠隔地のユーザが使用する3DGSによる3次元再構成のためのプログラム
+## Related Repositories
+This system consists of the following programs:
+
+- [tele-sync-onsite](https://github.com/t-ota0407/tele-sync-onsite) - MR application used by on-site users
+- [tele-sync-remote](https://github.com/t-ota0407/tele-sync-remote) - MR application used by remote users
+- [tele-sync-server](https://github.com/t-ota0407/tele-sync-server) - Server program
+- [tele-sync-3dgs](https://github.com/t-ota0407/tele-sync-3dgs) - Program for 3D reconstruction using 3DGS for remote users
